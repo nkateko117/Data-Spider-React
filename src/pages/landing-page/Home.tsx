@@ -13,9 +13,9 @@ import LogoCollection from "./components/LogoCollection";
 import Highlights from "./components/Highlights";
 import Pricing from "./components/Pricing";
 import Features from "./components/Features";
-import Testimonials from "./components/Testimonials";
+//import Testimonials from "./components/Testimonials";
 import FAQ from "./components/FAQ";
-import Footer from "./components/Footer";
+//import Footer from "./components/Footer";
 import getLPTheme from "./getLPTheme";
 
 interface ToggleCustomThemeProps {
@@ -84,7 +84,6 @@ export default function Home() {
         <LogoCollection />
         <Features />
         <Divider />
-        <Testimonials />
         <Divider />
         <Highlights />
         <Divider />
@@ -92,7 +91,6 @@ export default function Home() {
         <Divider />
         <FAQ />
         <Divider />
-        <Footer />
       </Box>
       <ToggleCustomTheme
         showCustomTheme={showCustomTheme}
