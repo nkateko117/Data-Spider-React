@@ -42,7 +42,7 @@ export default function Hero() {
               fontSize: "clamp(3.5rem, 10vw, 4rem)",
             }}
           >
-            Our latest&nbsp;
+            DATA SPIDER&nbsp;
             <Typography
               component="span"
               variant="h1"
@@ -54,7 +54,7 @@ export default function Hero() {
                     : "primary.light",
               }}
             >
-              products
+              genesis
             </Typography>
           </Typography>
           <Typography
@@ -62,9 +62,9 @@ export default function Hero() {
             color="text.secondary"
             sx={{ alignSelf: "center", width: { sm: "100%", md: "80%" } }}
           >
-            Explore our cutting-edge dashboard, delivering high-quality
-            solutions tailored to your needs. Elevate your experience with
-            top-tier features and services.
+            Brace yourself for a revolution in day trading and sports betting.
+            But you will have to wait a little longer. System still in
+            production!!!
           </Typography>
           <Stack
             direction={{ xs: "column", sm: "row" }}
@@ -101,30 +101,6 @@ export default function Hero() {
             .
           </Typography>
         </Stack>
-        <Box
-          id="image"
-          sx={(theme) => ({
-            mt: { xs: 8, sm: 10 },
-            alignSelf: "center",
-            height: { xs: 200, sm: 700 },
-            width: "100%",
-            backgroundImage:
-              theme.palette.mode === "light"
-                ? 'url("/static/images/templates/templates-images/hero-light.png")'
-                : 'url("/static/images/templates/templates-images/hero-dark.png")',
-            backgroundSize: "cover",
-            borderRadius: "10px",
-            outline: "1px solid",
-            outlineColor:
-              theme.palette.mode === "light"
-                ? alpha("#BFCCD9", 0.5)
-                : alpha("#9CCCFC", 0.1),
-            boxShadow:
-              theme.palette.mode === "light"
-                ? `0 0 12px 8px ${alpha("#9CCCFC", 0.2)}`
-                : `0 0 24px 12px ${alpha("#033363", 0.2)}`,
-          })}
-        />
       </Container>
     </Box>
   );
