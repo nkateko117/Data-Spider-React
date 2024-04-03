@@ -100,41 +100,33 @@ function AppAppBar({ mode, toggleColorMode }: AppAppBarProps) {
                   onClick={() => scrollToSection("features")}
                   sx={{ py: "6px", px: "12px" }}
                 >
-                  <Typography variant="body2" color="text.primary">
-                    Features
-                  </Typography>
+                  <Typography variant="body2" color="text.primary"></Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => scrollToSection("testimonials")}
                   sx={{ py: "6px", px: "12px" }}
                 >
-                  <Typography variant="body2" color="text.primary">
-                    Testimonials
-                  </Typography>
+                  <Typography variant="body2" color="text.primary"></Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => scrollToSection("highlights")}
                   sx={{ py: "6px", px: "12px" }}
                 >
                   <Typography variant="body2" color="text.primary">
-                    Highlights
+                    Services
                   </Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => scrollToSection("pricing")}
                   sx={{ py: "6px", px: "12px" }}
                 >
-                  <Typography variant="body2" color="text.primary">
-                    Pricing
-                  </Typography>
+                  <Typography variant="body2" color="text.primary"></Typography>
                 </MenuItem>
                 <MenuItem
                   onClick={() => scrollToSection("faq")}
                   sx={{ py: "6px", px: "12px" }}
                 >
-                  <Typography variant="body2" color="text.primary">
-                    FAQ
-                  </Typography>
+                  <Typography variant="body2" color="text.primary"></Typography>
                 </MenuItem>
               </Box>
             </Box>

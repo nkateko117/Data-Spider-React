@@ -63,8 +63,8 @@ export default function Hero() {
             sx={{ alignSelf: "center", width: { sm: "100%", md: "80%" } }}
           >
             Brace yourself for a revolution in day trading and sports betting.
-            But you will have to wait a little longer. System still in
-            production!!!
+            But you will have to wait a little longer. THE SYSTEM IS CURRENTLY
+            IN PRODUCTION.
           </Typography>
           <Stack
             direction={{ xs: "column", sm: "row" }}
