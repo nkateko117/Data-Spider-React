@@ -9,7 +9,7 @@ import Login from "./pages/Login";
 
 function App() {
   return (
-    <BrowserRouter basename="/vite-deploy">
+    <BrowserRouter basename="/Data-Spider-React">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/login" element={<Login />} />
